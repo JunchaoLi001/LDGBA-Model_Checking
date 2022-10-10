@@ -65,11 +65,11 @@ class GridPOMDP():
     
     p : float, optional
         The probability that the agent moves in the intended direction. It moves in one of the perpendicular direction with probability (1-p).
-        The default value is 0.8.
+        The default value is 0.9.
         
     obsv_p : float, optional
         The probability that the agent observes the true state. The other possible observed states share the probability (1-p).
-        The default value is 0.8.
+        The default value is 0.9.
     
     
     """
@@ -352,7 +352,7 @@ class GridPOMDP():
     def get_observation_prob(self,state):
         """Returns the list of possible observed states with their probabilities when the current state is the input (obsv_states,obsv_probs).
         The agent observes the state according to the 'hallway'=0, 'wall'=1 and 'door'=2 combination on four directions in order;
-        (ex. s_property=1,1,2,1 can be state [0,0],[1,0],[2,0],[2,2] or [3,0]. Agent located at one of these states can have probability=0.2 to observe each state)
+        (ex. the combination of the observation as 's_property=1,1,2,1' can be obseved on the state [1,0],[1,2],[1,3],[2,0] or [2,2].)
     
         Parameters
         ----------

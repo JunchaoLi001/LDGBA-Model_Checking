@@ -12,17 +12,17 @@ If you find it useful in your research, please cite it using :
 }
 ```
 ## folders
-###### 10by10 Simulation
-  Product POMDP simulation on 10 by 10 grid world solved by DQN with LDGBA with frontier tracking function.
-  Product POMDP simulation on 10 by 10 grid world solved by SARSOP with reward constraint.
+#### 10by10 Simulation
+  -Product POMDP simulation on 10 by 10 grid world solved by DQN with LDGBA with frontier tracking function.
+  -Product POMDP simulation on 10 by 10 grid world solved by SARSOP with reward constraint.
   
-###### Office Simulation
-  Product POMDP simulation on 4 by 4 office environment solved by SARSOP with single observation.
-  Product POMDP simulation on 4 by 4 office environment solved by SARSOP with full observation.
+#### Office Simulation
+  -Product POMDP simulation on 4 by 4 office environment solved by SARSOP with single observation.
+  -Product POMDP simulation on 4 by 4 office environment solved by SARSOP with full observation.
   
 ## Installation:
-  Python 3.5+
-  Julia 1.6.3+ (needed for SARSOP)
-  Tensorflow 2.7.0 (needed for DQN)
-  [Pybullet 3](https://github.com/bulletphysics/bullet3) (needed for simulation)
+  -Python 3.5+
+  -Julia 1.6.3+ (needed for SARSOP)
+  -Tensorflow 2.7.0 (needed for DQN)
+  -[Pybullet 3](https://github.com/bulletphysics/bullet3) (needed for simulation)
   

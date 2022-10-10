@@ -23,7 +23,7 @@ If you find it useful in your research, please cite it using :
   
 ## Installation:
   - Python 3.5+
-  - Julia 1.6.3+ (needed for SARSOP)
+  - Julia 1.6.3+ (needed for [SARSOP](https://github.com/JuliaPOMDP/SARSOP.jl))
   - Tensorflow 2.7.0 (needed for DQN)
   - [Pybullet 3](https://github.com/bulletphysics/bullet3) (needed for Pybullet Turtlebot simulation)
   

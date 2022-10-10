@@ -1,4 +1,4 @@
-# LDGBA-Model_Checking-SARSOP
+# LDGBA-Model_Checking
 This is the implementation of Model Checking on POMDP with Limit-Deterministic Generalized B ̈uchi Automaton introduced in the work "Model-Based Motion Planning in POMDP
 with Temporal Logic Specifications".
 

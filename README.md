@@ -1,5 +1,5 @@
 # LDGBA-Model_Checking
-This is the implementation of Model Checking on POMDP with Limit-Deterministic Generalized B ̈uchi Automaton introduced in the work "Model-Based Motion Planning in POMDP
+This is the implementation of Model Checking on POMDP with Limit-Deterministic Generalized B ̈uchi Automaton introduced in the work "Model-Based Motion Planning in POMDPs
 with Temporal Logic Specifications".
 
 If you find it useful in your research, please cite it using :
@@ -7,7 +7,7 @@ If you find it useful in your research, please cite it using :
 ```
 @inproceedings{
   title={Model-Based Motion Planning in POMDP with Temporal Logic Specifications},
-  author={Junchao Li, Shaoping Xiao, Mingyu Cai and Zhaoan Wang},
+  author={Junchao Li, Mingyu Cai, Zhaoan Wang and Shaoping Xiao},
   year={2022},
 }
 ```

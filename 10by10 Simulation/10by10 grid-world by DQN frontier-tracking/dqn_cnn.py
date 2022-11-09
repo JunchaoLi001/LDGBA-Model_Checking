@@ -76,7 +76,7 @@ class DQNAgent:
     
     def act_trained(self, state):
         # Select the action by using the model_tar
-        act_q_value = self.model_tar.predict(state)
+        act_q_value = self.model_eva.predict(state)
         return act_q_value  # returns action
     
     def replay(self, batch_size, num_episode, episode):

@@ -5,10 +5,15 @@ with Temporal Logic Specifications".
 If you find it useful in your research, please cite it using :
 
 ```
-@inproceedings{
-  title={Model-Based Motion Planning in POMDP with Temporal Logic Specifications},
-  author={Junchao Li, Mingyu Cai, Zhaoan Wang and Shaoping Xiao},
-  year={2022},
+@article{li2023model,
+  title={Model-based motion planning in POMDPs with temporal logic specifications},
+  author={Li, Junchao and Cai, Mingyu and Wang, Zhaoan and Xiao, Shaoping},
+  journal={Advanced Robotics},
+  volume={37},
+  number={14},
+  pages={871--886},
+  year={2023},
+  publisher={Taylor \& Francis}
 }
 ```
 ## Folders
